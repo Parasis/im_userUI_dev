@@ -1,0 +1,63 @@
+.dividebeside{
+
+}
+body{
+	background-color: #eed;
+}
+#ha_title{
+	font-weight: bold;
+	position: relative;
+	left: 155px;
+}
+.divide{
+	display: -webkit-flex;
+	height: 640px;
+	width: 1212px;
+	background-color: #aaa;
+	border-radius: 12px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.divl{
+	flex:  7 ;
+	background-color: #3e3f3a;
+	border-radius: 12px;
+}
+.divll{
+	position: relative;
+	width: 80%;
+	
+	left: 28px;
+}
+.divr{	flex: 18;
+}
+.divrr{
+	width:  80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+meetinformation{
+	font-size: 26px;
+}
+
+.Shouldbepeople{
+	height: 69px;
+	font-size: 24px;
+	position: relative;
+	top: 24px;
+	color: #3e3f3a;
+}
+
+#remark{
+	height: 160px;
+}
+#checkall{
+	float: right;
+}
+#submit{
+	width: 164px;
+	position: relative;
+	top: 22px;
+	left: 273px;
+}
+
