@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>需求确定</title>
+    <link rel="stylesheet" href="reservations.css">
+</head>
+<body>
+<div id="out">
+    <header id="_header">
+        <img id="pic" src="image/logo_black.png"><span id="text">“智会”会议室预定系统</span>
+        <hr id="line">
+    </header>
+    <div id="left">
+        <div id="main"><span class="texts">会议主题</span>
+            <form id="form_1">
+                <select id="select_1">
+                    <option value="noCheck">类型</option>
+                    <option value="small">小组会议</option>
+                    <option value="medium">部门会议</option>
+                    <option value="big">公司大会</option>
+                    <option value="bigBig">董事会</option>
+                    <option value="more">跨部门会议</option>
+                    <option value="fun">娱乐</option>
+                </select>
+            </form>
+            <input type="text" class="inText_1">
+        </div>
+        <div id="num">
+            <span class="texts">会议人数</span>
+            <div style="width: 110px;height: 50px;float: left;margin-left: 35px"><input type="text" class="inText_1"
+                                                                                        style="width: 110px;"></div>
+            <div id="warning">Warning:</div>
+            <div id="text_2">请如实填写，这将影响到您的信誉积分。</div>
+        </div>
+        <div id="first">
+            <span class="texts">优先选项</span>
+            <form id="form_2">
+                <select class="select_2">
+                    <option value="noCheck">A区</option>
+                    <option value="small">B区</option>
+                    <option value="medium">C区</option>
+                    <option value="big">D区</option>
+                </select>
+                <select class="select_2">
+                    <option value="noCheck">1幢</option>
+                    <option value="small">2幢</option>
+                    <option value="medium">3幢</option>
+                    <option value="big">4幢</option>
+                </select>
+                <select class="select_2">
+                    <option value="noCheck">1楼</option>
+                    <option value="small">2楼</option>
+                    <option value="medium">3楼</option>
+                    <option value="big">4楼</option>
+                </select>
+            </form>
+        </div>
+        <i id="line_2"></i>
+
+    </div>
+    <div id="right">
+        <div id="date">
+            <span class="texts">会议日期</span>
+            <input type="date" id="myDate" value="2016-04-02">
+            <br/><span class="texts" style="font-size: 20px;margin-left: 200px">时间</span>
+            <input type="time" class="time" style="margin-top: 30px;margin-left: 20px"><font size="5">~</font>
+            <input type="time" class="time">
+        </div>
+        <div id="other">
+            <span class="texts">备注</span>
+            <textarea>输入另外补充的内容</textarea>
+        </div>
+    </div>
+    <input type="submit" value="下一步" style="float: right;margin-right: 46px;width: 80px;height: 30px">
+    <div id="footer">
+
+    </div>
+</div>
+</body>
+</html>
