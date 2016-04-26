@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>订单详情</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/home_after.css">
+    <link rel="stylesheet" type="text/css" href="css/order.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-default">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+                <img alt="Brand" src="images/logo_weight.png" height="20px">
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html">智会</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="user.html">部门：XXX 姓名：XXX 工号：XXX</a></li>
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="page-header">
+    <h1 id="ha_title" >会议订单</h1>
+</div>
+
+<table class="order" border="#f0e9df 1px solid">
+    <tr>
+        <th>会议类型</th>
+        <th>会议主题</th>
+        <th>会议时间</th>
+        <th>会议人数</th>
+        <th>会议地点</th>
+        <th>特色服务</th>
+        <th>订单操作</th>
+    </tr>
+    <tr>
+        <td colspan="7" align="center">预约时间：2016-03-07 订单号：xxxxxxx</td>
+    </tr>
+    <tr>
+        <td>商务会议</td>
+        <td>xx项目研讨会</td>
+        <td>2016-03-29<br>14:00-17:00</td>
+        <td>35人</td>
+        <td>A1-302</td>
+        <td>提前开灯<br>提前开空调<br></td>
+        <td>
+            <button class="order_op" >分享订单</button>
+            <br><br>
+            <button class="order_op">删除订单</button>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="7" align="center">预约时间：2016-03-28 订单号：xxxxxxx</td>
+    </tr>
+    <tr>
+        <td>培训会议</td>
+        <td>xx公司新员工培训</td>
+        <td>2016-04-02<br>09:00-11:30</td>
+        <td>40人</td>
+        <td>A2-201</td>
+        <td>提前开窗<br>提前开空调<br>提前开投影</td>
+        <td>
+            <button class="order_op" >分享订单</button>
+            <br><br>
+            <button class="order_op">删除订单</button>
+        </td>
+    </tr>
+</table>
+<div id="change_page">
+    <div id="page">
+        <button><</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>4</button>
+        <button>></button>
+    </div>
+    <div id="change">
+        共10页，到第
+        <input type="text" value="1" >
+        页
+        <button>确定</button>
+    </div>
+
+</div>
+
+
+
+
+
+</body>
+</html>

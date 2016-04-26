@@ -1,0 +1,44 @@
+#order_info{
+    width:300px;
+    margin-left:900px;
+    margin-top: 50px;
+}
+#header{
+    margin-left:200px;
+}
+#peopel{
+    margin-left: 250px;
+    width:700px;
+    height: 200px;
+    background: mintcream;
+    border: darkgray 2px solid;
+    padding: 20px;
+    overflow:scroll; /*任何时候都强制显示滚动条*/
+
+}
+#peopel label{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+#op{
+    margin-left: 700px;
+}
+#op label{
+    margin-left: 50px;
+}
+#send{
+    margin-top: 30px;
+    margin-left: 270px;
+}
+.send_pie{
+    width: 100px;
+    height: 150px;
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+    font-size: 25px;
+}
+.send_pie img{
+    width: 100px;
+    height: 100px;
+}
